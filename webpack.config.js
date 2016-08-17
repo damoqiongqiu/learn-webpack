@@ -8,24 +8,26 @@ module.exports = {
     },
     module: {
         loaders: [{
-            test: /\.jsx?$/,
-            exclude: /node_modules/,
-            loader: 'babel-loader'
-        }, {
-            test: /\.css$/,
-            // loader: "style-loader!css-loader"
-            loader: ExtractTextPlugin.extract("style-loader", "css-loader")
-        }, {
-            test: /\.less$/,
-            // loader: "style-loader!css-loader!less-loader"
-            loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")
-        }, {
-            test: /\.(jpe?g|png|gif|svg)$/i,
-            loaders: [
-                'file?hash=sha512&digest=hex&name=[hash].[ext]',
-                'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
-            ]
-        }]
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader'
+            }, {
+                test: /\.css$/,
+                // loader: "style-loader!css-loader"
+                loader: ExtractTextPlugin.extract("style-loader", "css-loader")
+            }, {
+                test: /\.less$/,
+                // loader: "style-loader!css-loader!less-loader"
+                loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")
+            },
+            { test: /\.png$/, loader: "url-loader?prefix=img/&limit=5000000" },
+            { test: /\.jpg$/, loader: "url-loader?prefix=img/&limit=5000" },
+            { test: /\.gif$/, loader: "url-loader?prefix=img/&limit=5000" },
+            { test: /\.woff$/, loader: "url-loader?prefix=font/&limit=5000" },
+            { test: /\.eot$/, loader: "file-loader?prefix=font/" },
+            { test: /\.ttf$/, loader: "file-loader?prefix=font/" },
+            { test: /\.svg$/, loader: "file-loader?prefix=font/" }
+        ]
     },
     plugins: [
         new ExtractTextPlugin("[name].css")
