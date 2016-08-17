@@ -12,3 +12,8 @@ require("./index.less");
  for (const cat of cats) {
      $('<li></li>').text(cat).appendTo(ul);
  }
+
+//异步加载的dogs模块，引用的dogs.css会被编译到子模块中去
+require.ensure(["./dogs"],function(dogs){
+
+});
