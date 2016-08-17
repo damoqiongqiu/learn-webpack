@@ -4,7 +4,7 @@ branch lesson01:Hello webpack.
 
 branch lesson02:Usage of webpack config file.
 
-branch lesson03:Usage of loaders.Babel example,css example,LESS example.
+branch lesson03:Usage of loaders.Babel example;css and LESS example;image example;font file example.
 
 branch lesson04:Usage of plugins.Extract css to its own file example.Uglify example.
 
