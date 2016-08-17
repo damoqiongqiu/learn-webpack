@@ -121,29 +121,39 @@
 	var _iteratorError = undefined;
 
 	try {
-	  for (var _iterator = _cats2.default[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-	    var cat = _step.value;
+	    for (var _iterator = _cats2.default[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+	        var cat = _step.value;
 
-	    (0, _jquery2.default)('<li></li>').text(cat).appendTo(ul);
-	  }
+	        (0, _jquery2.default)('<li></li>').text(cat).appendTo(ul);
+	    }
 
-	  //异步加载的dogs模块，引用的dogs.css会被编译到子模块中去
+	    //异步加载的dogs模块，引用的dogs.css会被编译到子模块中去
 	} catch (err) {
-	  _didIteratorError = true;
-	  _iteratorError = err;
+	    _didIteratorError = true;
+	    _iteratorError = err;
 	} finally {
-	  try {
-	    if (!_iteratorNormalCompletion && _iterator.return) {
-	      _iterator.return();
+	    try {
+	        if (!_iteratorNormalCompletion && _iterator.return) {
+	            _iterator.return();
+	        }
+	    } finally {
+	        if (_didIteratorError) {
+	            throw _iteratorError;
+	        }
 	    }
-	  } finally {
-	    if (_didIteratorError) {
-	      throw _iteratorError;
-	    }
-	  }
 	}
 
 	__webpack_require__.e/* nsure */(1, function (dogs) {});
+
+	//图片模块
+	var gif = __webpack_require__(308);
+	var jpg = __webpack_require__(309);
+	var png = __webpack_require__(310);
+	var svg = __webpack_require__(311);
+	console.log(gif);
+	console.log(jpg);
+	console.log(png);
+	console.log(svg);
 
 /***/ },
 /* 1 */
@@ -18671,6 +18681,31 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 307 */,
+/* 308 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "9ed4669f524bec38319be63a2ee4ba26.gif";
+
+/***/ },
+/* 309 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "c71eceaa211e1a6866c25ef0ce8ac0ae.jpg";
+
+/***/ },
+/* 310 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "96a0bbbb2a5d7eeff97d6039191668e5.png";
+
+/***/ },
+/* 311 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "84261cf792023bbdee7d7a5668f712eb.svg";
 
 /***/ }
 /******/ ]);
