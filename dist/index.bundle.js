@@ -18323,7 +18323,7 @@
 
 
 	// module
-	exports.push([module.id, "body {}\r\n\\------\r\n.navbar-default {\r\n\tbackground: #FFA !important;\r\n}\r\n\\------\r\n.navbar-default {\r\n\tbackground: #AFA !important;\r\n}\r\n", ""]);
+	exports.push([module.id, "body {\r\n    background-color: #ff3300;\r\n}\r\n\r\n// CSS注释\r\n.navbar-default {\r\n    background: #FFA !important;\r\n}\r\n\r\n.navbar-default {\r\n    background: #AFA !important;\r\n}\r\n", ""]);
 
 	// exports
 
@@ -18671,7 +18671,7 @@
 
 
 	// module
-	exports.push([module.id, ".user-list-div {\n  margin: 0px;\n  padding: 0px;\n}\n.user-list-div .user-item-title {\n  margin-right: 10px;\n  padding: 15px;\n}\n", ""]);
+	exports.push([module.id, "/* 这里是LESS的注释 */\n.user-list-div {\n  margin: 0px;\n  padding: 0px;\n}\n.user-list-div .user-item-title {\n  margin-right: 10px;\n  padding: 15px;\n}\n", ""]);
 
 	// exports
 

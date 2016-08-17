@@ -1,9 +1,12 @@
-body {}
-------
-.navbar-default {
-	background: #FFA !important;
+body {
+    background-color: #ff3300;
 }
-------
+
+// CSS注释
 .navbar-default {
-	background: #AFA !important;
+    background: #FFA !important;
+}
+
+.navbar-default {
+    background: #AFA !important;
 }
