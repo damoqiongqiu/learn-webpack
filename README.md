@@ -21,6 +21,7 @@ learn-***是一个系列教学项目用的实例源代码，全部链接请点�
 - https://gitee.com/mumu-osc/learn-router
 - https://gitee.com/mumu-osc/learn-module
 - https://gitee.com/mumu-osc/learn-form
+- https://gitee.com/mumu-osc/learn-service
 - https://gitee.com/mumu-osc/learn-test
 - https://gitee.com/mumu-osc/learn-webpack
 
