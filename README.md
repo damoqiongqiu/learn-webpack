@@ -12,9 +12,21 @@ This project is for webpack beginners.I splited each step into different branche
 
 - git checkout lesson05:Code split example.
 
+## github上的链接列表
 
-## 备注
-learn-***是一个系列教学项目用的实例源代码，全部链接请点这里：
+- https://github.com/damoqiongqiu/learn-component
+- https://github.com/damoqiongqiu/learn-directive
+- https://github.com/damoqiongqiu/learn-router
+- https://github.com/damoqiongqiu/learn-module
+- https://github.com/damoqiongqiu/learn-form
+- https://github.com/damoqiongqiu/learn-service
+- https://github.com/damoqiongqiu/learn-test
+- https://github.com/damoqiongqiu/learn-webpack
+- https://github.com/damoqiongqiu/angular-seo
+
+## gitee上的链接列表
+
+网络原因，国内用户推荐使用gitee上的代码，你懂的。
 
 - https://gitee.com/mumu-osc/learn-component
 - https://gitee.com/mumu-osc/learn-directive
