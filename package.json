@@ -1,25 +1,28 @@
 {
-  "name": "learn-webpack",
-  "version": "1.0.0",
-  "description": "A project for learning webpack.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/damoqiongqiu/learn-webpack.git"
-  },
-  "keywords": [
-    "webpack"
-  ],
-  "author": "AaronZhang",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/damoqiongqiu/learn-webpack/issues"
-  },
-  "homepage": "https://github.com/damoqiongqiu/learn-webpack#readme",
-  "devDependencies": {
-    "webpack-dev-server": "^1.14.1"
-  }
+    "name": "learn-webpack",
+    "author": "大漠穷秋",
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "A project for learning webpack.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/damoqiongqiu/learn-webpack.git"
+    },
+    "keywords": [
+        "webpack"
+    ],
+    "bugs": {
+        "url": "https://github.com/damoqiongqiu/learn-webpack/issues"
+    },
+    "homepage": "https://github.com/damoqiongqiu/learn-webpack#readme",
+    "devDependencies": {
+        "webpack": "^4.17.1",
+        "webpack-cli": "^3.1.0",
+        "webpack-dev-server": "^1.14.1"
+    },
+    "dependencies": {}
 }
