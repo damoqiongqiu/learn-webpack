@@ -1,25 +1,17 @@
-const webpack = require('webpack');
+const path = require("path");
+
 module.exports = {
-    entry: './app/index.js',
+    entry: "./src/index.js",
     output: {
-        path: './dist',
-        filename: 'index.bundle.js'
+        filename: "index.bundle.js",
+        path: path.resolve(__dirname, "dist")
     },
     module: {
-        loaders: [{
-            test: /\.jsx?$/,
-            exclude: /node_modules/,
-            loader: 'babel-loader'
-        }]
-    },
-    plugins: [
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false,
-            },
-            output: {
-                comments: false,
+        rules: [
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: ["file-loader"]
             }
-        })
-    ]
+        ]
+    }
 };
