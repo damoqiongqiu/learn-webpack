@@ -1,41 +1,32 @@
 {
-  "name": "learn-webpack",
-  "version": "1.0.0",
-  "description": "A project for learning webpack.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/damoqiongqiu/learn-webpack.git"
-  },
-  "keywords": [
-    "webpack"
-  ],
-  "author": "AaronZhang",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/damoqiongqiu/learn-webpack/issues"
-  },
-  "homepage": "https://github.com/damoqiongqiu/learn-webpack#readme",
-  "devDependencies": {
-    "babel-core": "^6.13.2",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.13.2",
-    "css-loader": "^0.23.1",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.9.0",
-    "image-webpack-loader": "^2.0.0",
-    "less": "^2.7.1",
-    "less-loader": "^2.2.3",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7",
-    "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
-    "babel-polyfill": "^6.13.0",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "jquery": "^3.1.0"
-  }
+    "name": "learn-webpack",
+    "author": "大漠穷秋",
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "A project for learning webpack.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/damoqiongqiu/learn-webpack.git"
+    },
+    "keywords": [
+        "webpack"
+    ],
+    "bugs": {
+        "url": "https://github.com/damoqiongqiu/learn-webpack/issues"
+    },
+    "homepage": "https://github.com/damoqiongqiu/learn-webpack#readme",
+    "devDependencies": {
+        "css-loader": "^1.0.0",
+        "style-loader": "^0.23.0",
+        "webpack": "^4.17.1",
+        "webpack-cli": "^3.1.0",
+        "webpack-dev-server": "^3.1.6"
+    },
+    "dependencies": {}
 }
