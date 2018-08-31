@@ -13,6 +13,7 @@ lesson-03-loading fonts
 lesson-03-loading data
 lesson-03-global-assets
 lesson-04-process-html
+lesson-04-auto-clean-dist
 lesson-05-dev-server
 lesson-06-source-map
 lesson-07-HMR
@@ -25,6 +26,8 @@ lesson-13-caching
 lesson-14-PWA
 lesson-15-TypeScript
 lesson-16-authoring-libraries
+lesson-17-mocha
+lesson-17-karma-jasmine
 
 ## github 上的链接列表
 
