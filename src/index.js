@@ -5,6 +5,7 @@ function component() {
     var myIcon = new Image();
     myIcon.src = Icon;
     element.appendChild(myIcon);
+    console.log("test-dev-server...");
     return element;
 }
 
