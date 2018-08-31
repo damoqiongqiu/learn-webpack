@@ -1,5 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CleanWebpackPlugin = require("clean-webpack-plugin");
+const ManifestPlugin = require("webpack-manifest-plugin");
 
 module.exports = {
     entry: "./src/index.js",
@@ -8,8 +10,10 @@ module.exports = {
         path: path.resolve(__dirname, "dist")
     },
     plugins: [
+        new ManifestPlugin(),
+        new CleanWebpackPlugin(["dist"]),
         new HtmlWebpackPlugin({
-            title: "自动生成index.html"
+            title: "自动清理dist目录"
         })
     ],
     module: {
