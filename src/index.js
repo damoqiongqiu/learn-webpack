@@ -1,4 +1,5 @@
 import Icon from "./1.png";
+import _ from "lodash";
 
 function component() {
     var element = document.createElement("div");

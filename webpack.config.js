@@ -4,10 +4,18 @@ const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ManifestPlugin = require("webpack-manifest-plugin");
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: {
+        index: "./src/index.js",
+        another: "./src/another-module.js"
+    },
     output: {
         filename: "[name].bundle.js",
         path: path.resolve(__dirname, "dist")
+    },
+    optimization: {
+        splitChunks: {
+            chunks: "all"
+        }
     },
     devServer: {
         contentBase: "./dist"
