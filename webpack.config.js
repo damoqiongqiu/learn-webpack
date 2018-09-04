@@ -2,12 +2,10 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ManifestPlugin = require("webpack-manifest-plugin");
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 module.exports = {
     entry: {
-        index: "./src/index.js",
-        another: "./src/another-module.js"
+        index: "./src/index.js"
     },
     output: {
         filename: "[name].bundle.js",
@@ -22,7 +20,6 @@ module.exports = {
         contentBase: "./dist"
     },
     plugins: [
-        new BundleAnalyzerPlugin(),
         new ManifestPlugin(),
         new CleanWebpackPlugin(["dist"]),
         new HtmlWebpackPlugin({
