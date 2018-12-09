@@ -5,6 +5,7 @@ function component() {
     var myIcon = new Image();
     myIcon.src = Icon;
     element.appendChild(myIcon);
+    console.log("假装在写代码...");
     return element;
 }
 
