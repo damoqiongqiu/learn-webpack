@@ -13,9 +13,8 @@ function component() {
     button.onclick = e =>
         import("./print").then(module => {
             var print = module.default;
-            print();
+            window.print();
         });
-
     return element;
 }
 
