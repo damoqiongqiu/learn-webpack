@@ -22,8 +22,8 @@
     },
     "homepage": "https://github.com/damoqiongqiu/learn-webpack#readme",
     "devDependencies": {
-        "css-loader": "^1.0.0",
-        "style-loader": "^0.23.0",
+        "css-loader": "^1.0.1",
+        "style-loader": "^0.23.1",
         "webpack": "^4.17.1",
         "webpack-cli": "^3.1.0",
         "webpack-dev-server": "^3.1.6"
