@@ -1,6 +1,0 @@
-{
-  "index.js": "index.bundle.js",
-  "1.bundle.js": "1.bundle.js",
-  "vendors~index.js": "vendors~index.bundle.js",
-  "index.html": "index.html"
-}
