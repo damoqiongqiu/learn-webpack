@@ -23,7 +23,7 @@ module.exports = {
         new ManifestPlugin(),
         new CleanWebpackPlugin(["dist"]),
         new HtmlWebpackPlugin({
-            title: "自动清理dist目录"
+            title: "Redux-Demo"
         })
     ],
     module: {
