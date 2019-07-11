@@ -2,9 +2,6 @@
 
 branch lesson01:Hello webpack.
 
-<<<<<<< HEAD
-branch lesson02:Usage of webpack config file.
-=======
 - lesson-01-quick-start
 - lesson-02-webpack-config
 - lesson-03-css-loader-basic
@@ -18,7 +15,6 @@ branch lesson02:Usage of webpack config file.
 - lesson-07-lazy-loading
 - lesson-08-redux-intro
 - master
->>>>>>> 79fe1a1... update-readme
 
 branch lesson03:Usage of loaders.Babel example,css example,LESS example.
 
