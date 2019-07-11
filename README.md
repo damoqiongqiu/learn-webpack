@@ -1,8 +1,6 @@
 # learn-webpack
 
-## TODO
-
-正在准备更新到 webpack 4.0，扩充案例解释以下细节：
+## 分支上的内容
 
 -   lesson-01-quick-start
 -   lesson-02-webpack-config
@@ -28,6 +26,13 @@
 -   lesson-16-authoring-libraries
 -   lesson-17-mocha
 -   lesson-17-karma-jasmine
+
+## 用法
+
+- 用git克隆本项目到你本地
+- cd learn-webpack
+- npm i 
+- webpack-dev-server --open
 
 ## License
 
