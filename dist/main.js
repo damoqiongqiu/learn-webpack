@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nlet cats = ['小狗', 'henry', 'martha'];\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (cats);\n\n//# sourceURL=webpack:///./src/cats.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nlet cats = ['Tom', 'Jack', 'Hellen', 'Aaron-1'];\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (cats);\n\n//# sourceURL=webpack:///./src/cats.js?");
 
 /***/ }),
 
