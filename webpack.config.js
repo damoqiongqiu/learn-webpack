@@ -4,7 +4,7 @@ const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ManifestPlugin = require("webpack-manifest-plugin");
 
 module.exports = {
-    entry: ["babel-polyfill","./src/index.js"],
+    entry: ["./src/index.ts"],
     output: {
         filename: "[name].bundle.js",
         path: path.resolve(__dirname, "dist")
@@ -17,7 +17,7 @@ module.exports = {
         new ManifestPlugin(),
         new CleanWebpackPlugin(["dist"]),
         new HtmlWebpackPlugin({
-            title: "增加Babel，ES6转ES5"
+            title: "支持TypeScript"
         })
     ],
     module: {
@@ -27,17 +27,14 @@ module.exports = {
                 use: ["file-loader"]
             },
             {
-                test:/\.js$/,
-                exclude:/(node_modules|bower_components)/,
-                use:{
-                    loader:'babel-loader',
-                    options:{
-                        cacheDirectory:true,
-                        presets:['env'],
-                        plugins:['transform-runtime']
-                    }
-                }
+                test: /\.ts$/,
+                use: "ts-loader"
             }
+        ]
+    },
+    resolve: {
+        extensions: [
+            '.ts'
         ]
     }
 };
