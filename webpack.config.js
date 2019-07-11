@@ -10,7 +10,8 @@ module.exports = {
         path: path.resolve(__dirname, "dist")
     },
     devServer: {
-        contentBase: "./dist"
+        contentBase: "./dist",
+        port:3000
     },
     plugins: [
         new ManifestPlugin(),
