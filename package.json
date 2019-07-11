@@ -6,7 +6,7 @@
   "description": "A project for learning webpack.",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --open",
+    "dev": "webpack --mode development --watch",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,8 +28,7 @@
     "style-loader": "^0.23.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.6"
+    "webpack-cli": "^3.1.0"
   },
   "dependencies": {}
 }
