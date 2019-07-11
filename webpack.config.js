@@ -5,5 +5,9 @@ module.exports = {
     output: {
         filename: "index.bundle.js",
         path: path.resolve(__dirname, "dist")
+    },
+    devServer: {
+        publicPath: '/dist/',
+        port: 3000,
     }
 };

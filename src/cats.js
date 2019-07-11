@@ -1,2 +1,2 @@
-let cats = ['dave', 'henry', 'martha'];
+let cats = ['Tom', 'Jack', 'Hellen'];
 export default cats;
