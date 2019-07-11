@@ -1,2 +1,2 @@
-var cats = ['dave', 'henry', 'martha'];
-module.exports = cats;
+let cats = ['dave', 'henry', 'martha'];
+export default cats;
