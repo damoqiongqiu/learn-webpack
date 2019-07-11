@@ -6,6 +6,10 @@ module.exports = {
         filename: "index.bundle.js",
         path: path.resolve(__dirname, "dist")
     },
+    devServer: {
+        publicPath: '/dist/',
+        port: 3000
+    },
     module: {
         rules: [
             {
