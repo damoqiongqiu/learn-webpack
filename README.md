@@ -32,6 +32,7 @@
 - 用git克隆本项目到你本地
 - cd learn-webpack
 - npm i 
+- npm i -g webpack-dev-server
 - webpack-dev-server --open
 
 ## License
