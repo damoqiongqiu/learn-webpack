@@ -1,12 +1,3 @@
-import Icon from "./1.png";
-
-function component() {
-    var element = document.createElement("div");
-    var myIcon = new Image();
-    myIcon.src = Icon;
-    element.appendChild(myIcon);
-    console.log("test-dev-server...");
-    return element;
-}
-
-document.body.appendChild(component());
+//有了babel之后，业务代码统一使用ES6语法即可
+let userName="damoqiongqiu";
+console.log(userName);

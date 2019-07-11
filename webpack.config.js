@@ -4,7 +4,7 @@ const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ManifestPlugin = require("webpack-manifest-plugin");
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: ["babel-polyfill","./src/index.js"],
     output: {
         filename: "[name].bundle.js",
         path: path.resolve(__dirname, "dist")
@@ -17,7 +17,7 @@ module.exports = {
         new ManifestPlugin(),
         new CleanWebpackPlugin(["dist"]),
         new HtmlWebpackPlugin({
-            title: "自动清理dist目录"
+            title: "增加Babel，ES6转ES5"
         })
     ],
     module: {
@@ -25,6 +25,18 @@ module.exports = {
             {
                 test: /\.(png|svg|jpg|gif)$/,
                 use: ["file-loader"]
+            },
+            {
+                test:/\.js$/,
+                exclude:/(node_modules|bower_components)/,
+                use:{
+                    loader:'babel-loader',
+                    options:{
+                        cacheDirectory:true,
+                        presets:['env'],
+                        plugins:['transform-runtime']
+                    }
+                }
             }
         ]
     }
