@@ -1,34 +1,36 @@
 {
-  "name": "learn-webpack",
-  "author": "大漠穷秋",
-  "license": "MIT",
-  "version": "1.0.0",
-  "description": "A project for learning webpack.",
-  "main": "index.js",
-  "scripts": {
-    "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/damoqiongqiu/learn-webpack.git"
-  },
-  "keywords": [
-    "webpack"
-  ],
-  "bugs": {
-    "url": "https://github.com/damoqiongqiu/learn-webpack/issues"
-  },
-  "homepage": "https://github.com/damoqiongqiu/learn-webpack#readme",
-  "devDependencies": {
-    "css-loader": "^1.0.0",
-    "mini-css-extract-plugin": "^0.4.2",
-    "optimize-css-assets-webpack-plugin": "^5.0.1",
-    "style-loader": "^0.23.0",
-    "uglifyjs-webpack-plugin": "^2.0.1",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
-  },
-  "dependencies": {}
+    "name": "learn-webpack",
+    "author": "大漠穷秋",
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "A project for learning webpack.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack --mode development --watch",
+        "build": "webpack --mode production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/damoqiongqiu/learn-webpack.git"
+    },
+    "keywords": [
+        "webpack"
+    ],
+    "bugs": {
+        "url": "https://github.com/damoqiongqiu/learn-webpack/issues"
+    },
+    "homepage": "https://github.com/damoqiongqiu/learn-webpack#readme",
+    "devDependencies": {
+        "css-loader": "^1.0.0",
+        "mini-css-extract-plugin": "^0.4.2",
+        "node-sass": "^4.12.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.1",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^0.23.0",
+        "uglifyjs-webpack-plugin": "^2.0.1",
+        "webpack": "^4.17.1",
+        "webpack-cli": "^3.1.0"
+    },
+    "dependencies": {}
 }

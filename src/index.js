@@ -1,4 +1,4 @@
-import "./index.css";
+import "./index.scss";
 
 function component() {
     var element = document.createElement("div");
